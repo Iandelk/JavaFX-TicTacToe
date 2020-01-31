@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="KrizicKruzic_JAVA2_working.jnlp">
+  <information>
+    <title>KrizicKruzic_JAVA2_working</title>
+    <vendor>Phyrexian</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="KrizicKruzic_JAVA2_working.jar" size="28621" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="KrizicKruzic_JAVA2_working" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="krizickruzic.KrizicKruzic"  name="KrizicKruzic_JAVA2_working" />
+  <update check="always"/>
+</jnlp>
